@@ -112,7 +112,7 @@ function App() {
       ...stores[storeDestinationIndex],
       items: newDestinationItems,
     };
-
+    // Updating again
     setStores(newStores);
   };
   return (
